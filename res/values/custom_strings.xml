@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 The 2by2 Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- 2byTricks -->
+    <string name="custom_dashboard_title">2byTricks</string>
+
+    <!-- Categories -->
+    <string name="about_title">About</string>
+    <string name="about_summary">About 2by2 Project</string>
+
+    <!-- About -->
+    <string name="about_info">2by2 Project is a which of "JP-focused" custom roms. We aim to provide clean AOSP experience with few additional features, and some JP goodies.</string>
+    <string name="about_website_title">Website</string>
+    <string name="about_website_summary">Feel free to drop by our website</string>
+    <string name="about_instagram_title" translatable="false">Instagram</string>
+    <string name="about_instagram_summary">Come see our posts</string>
+    <string name="about_telegram_title" translatable="false">Telegram</string>
+    <string name="about_telegram_summary">Visit our community chat</string>
+    <string name="about_github_title" translatable="false">GitHub</string>
+    <string name="about_github_summary">Check out our GitHub</string>
+    <string name="about_contributors_title">Contributors</string>
+    <string name="about_contributor_1_title" translatable="false">MRC</string>
+    <string name="about_contributor_1_summary" translatable="false">Founder</string>
+    <string name="about_contributor_2_title" translatable="false">lahaina</string>
+    <string name="about_contributor_2_summary" translatable="false">Lead Developer</string>
+    <string name="about_contributor_3_title" translatable="false">Sheelq</string>
+    <string name="about_contributor_3_summary" translatable="false">Designer</string>
+</resources>
