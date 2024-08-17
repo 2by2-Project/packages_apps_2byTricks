@@ -9,4 +9,18 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/miscellaneous_title">
 
+    <!-- Play Integrity Fix -->
+    <jp.project2by2.settings.preferences.SystemPropertySwitchPreference
+        android:key="persist.sys.pihooks.pi"
+        android:title="@string/spoofing_pif_toggle_title"
+        android:summary="@string/spoofing_pif_toggle_summary"
+        android:defaultValue="true" />
+
+    <!-- Google Photos -->
+    <jp.project2by2.settings.preferences.SystemPropertySwitchPreference
+        android:key="persist.sys.pihooks.gphotos"
+        android:title="@string/spoofing_photos_title"
+        android:summary="@string/spoofing_photos_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
