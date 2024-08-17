@@ -9,6 +9,14 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/custom_dashboard_title">
 
+    <!-- Miscellaneous -->
+    <Preference
+        android:key="miscellaneous"
+        android:title="@string/miscellaneous_title"
+        android:summary="@string/miscellaneous_summary"
+        android:icon="@drawable/ic_miscellaneous"
+        android:fragment="jp.project2by2.settings.fragments.miscellaneous.Miscellaneous" />
+
     <!-- About -->
     <Preference
         android:key="about"

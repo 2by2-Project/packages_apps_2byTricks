@@ -9,6 +9,8 @@
     <string name="custom_dashboard_title">2byTricks</string>
 
     <!-- Categories -->
+    <string name="miscellaneous_title">Miscellaneous</string>
+    <string name="miscellaneous_summary">Developer options, spoofing</string>
     <string name="about_title">About</string>
     <string name="about_summary">About 2by2 Project</string>
 
