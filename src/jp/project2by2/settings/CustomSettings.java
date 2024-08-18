@@ -16,6 +16,8 @@ public class CustomSettings extends DashboardFragment {
 
     private static final String TAG = "2byTricks";
 
+    public static final String CATEGORY_CUSTOM_SETTINGS = "com.android.settings.category.ia.custom_settings";
+
     @Override
     protected int getPreferenceScreenResId() {
         return R.xml.custom_settings;
