@@ -19,6 +19,8 @@
     <string name="spoofing_pif_toggle_summary">Use the ROM\'s built-in Play Integrity fix values</string>
     <string name="spoofing_photos_title">Google Photos spoof</string>
     <string name="spoofing_photos_summary">Spoof the Google Photos app as a Pixel XL</string>
+    <string name="disable_camera_sounds_title">Force disable camera sounds</string>
+    <string name="disable_camera_sounds_summary">Reboot required. There is not warranty if you encounter any legal issue.</string>
 
     <!-- About -->
     <string name="about_info">2by2 Project is a which of "JP-focused" custom roms. We aim to provide clean AOSP experience with few additional features, and some JP goodies.</string>

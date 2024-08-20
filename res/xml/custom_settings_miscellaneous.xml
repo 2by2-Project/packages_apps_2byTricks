@@ -23,4 +23,11 @@
         android:summary="@string/spoofing_photos_summary"
         android:defaultValue="false" />
 
+    <!-- Force disable camera sounds -->
+    <jp.project2by2.settings.preferences.SystemPropertySwitchPreference
+        android:key="persist.sys.camera.sound.disable"
+        android:title="@string/disable_camera_sounds_title"
+        android:summary="@string/disable_camera_sounds_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
