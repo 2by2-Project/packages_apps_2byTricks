@@ -21,11 +21,10 @@
         android:summary="@string/spoofing_pif_toggle_summary"
         android:defaultValue="true" />
 
-    <!-- Play Integrity Fix - JSON select -->
+    <!-- Play Integrity Fix - JSON utils -->
     <Preference
-        android:key="pif_json_file_preference"
-        android:title="@string/spoofing_pif_json_select_title"
-        android:summary="@string/spoofing_pif_json_select_summary"/>
+        android:key="pif_json_manage_preference"
+        android:title="@string/spoofing_pif_manage_title" />
 
     <!-- Google Photos -->
     <jp.project2by2.settings.preferences.SystemPropertySwitchPreference

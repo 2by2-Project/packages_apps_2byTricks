@@ -12,10 +12,19 @@
     <string name="about_title">ROM の詳細</string>
     <string name="about_summary">2by2 Project について</string>
     <!-- Miscellaneous -->
+    <string name="category_system_title">システム関連</string>
+    <!-- Miscellaneous - System -->
     <string name="spoofing_pif_toggle_title">ROM 側の Play Integrity の修正</string>
     <string name="spoofing_pif_toggle_summary">端末を偽装して Play Integrity に通過できるようにします。TrickyStore 等のサードパーティ製モジュールを使用するときはオフにしてください。</string>
+    <string name="spoofing_pif_manage_title">Play Integrity Fix の管理</string>
+    <string name="spoofing_pif_json_download_title">最新の pif.json をダウンロードする</string>
+    <string name="spoofing_pif_json_download_message">最新の pif.json をダウンロードしています</string>
+    <string name="spoofing_pif_json_select_title">pif.json をインポートして適用する</string>
+    <string name="spoofing_pif_json_select_success">Play Integrity Fix の値をアップデートしました。再起動して適用します。</string>
     <string name="spoofing_photos_title">無制限の Google フォトストレージ</string>
     <string name="spoofing_photos_summary">Google フォトを使用するとき、端末を Pixel XL に偽装します</string>
+    <string name="disable_camera_sounds_title">シャッター音の強制無効化</string>
+    <string name="disable_camera_sounds_summary">再起動が必要です。いかなる法的問題が発生しても 2by2 Project は責任を負いません。</string>
     <!-- About -->
     <string name="about_info">2by2 Projectは、主に日本人向けにフォーカスされたカスタムROMです。私たちはLineageOSに基づきクリーンなAOSP体験や追加機能などを提供します。</string>
     <string name="about_website_title">ホームページ</string>
