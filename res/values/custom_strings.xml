@@ -15,7 +15,13 @@
     <string name="about_summary">About 2by2 Project</string>
 
     <!-- Miscellaneous -->
+    <string name="category_appearance_title">Appearance</string>
     <string name="category_system_title">System</string>
+
+    <!-- Miscellaneous - Appearance -->
+    <string name="qs_transparency_title">Adjust QS Transparency</string>
+    <string name="disable_window_blurs_title">Disable QS blur effects</string>
+    <string name="disable_window_blurs_summary">Disable blurs might be boost performance. No blur effects on some devices due to optimization.</string>
 
     <!-- Miscellaneous - System -->
     <string name="spoofing_pif_toggle_title">Play Integrity fix</string>
