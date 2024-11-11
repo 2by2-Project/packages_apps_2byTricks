@@ -15,12 +15,10 @@
         android:title="@string/category_appearance_title" />
 
     <!-- QS Transparency -->
-    <!--
     <jp.project2by2.settings.preferences.SystemSettingSeekBarPreference
         android:key="qs_transparency"
         android:title="@string/qs_transparency_title"
         android:defaultValue="70" />
-    -->
 
     <!-- QS Blurs -->
     <jp.project2by2.settings.preferences.GlobalSettingSwitchPreference
