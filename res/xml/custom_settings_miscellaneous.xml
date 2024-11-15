@@ -18,7 +18,11 @@
     <jp.project2by2.settings.preferences.SystemSettingSeekBarPreference
         android:key="qs_transparency"
         android:title="@string/qs_transparency_title"
-        android:defaultValue="70" />
+        android:defaultValue="70"
+        settings:interval="1"
+        settings:units="%"
+        android:max="100"
+        android:min="1"/>
 
     <!-- QS Blurs -->
     <jp.project2by2.settings.preferences.GlobalSettingSwitchPreference
