@@ -31,6 +31,23 @@
         android:summary="@string/disable_window_blurs_summary"
         android:defaultValue="false" />
 
+    <!-- Lock Screen Category -->
+    <PreferenceCategory
+        android:key="category_lockscreen"
+        android:title="@string/category_lockscreen_title" />
+
+    <jp.project2by2.settings.preferences.SystemSettingSwitchPreference
+        android:key="fp_success_vibrate"
+        android:title="@string/fp_success_vibrate_title"
+        android:summary="@string/fp_success_vibrate_summary"
+        android:defaultValue="true" />
+
+    <jp.project2by2.settings.preferences.SystemSettingSwitchPreference
+        android:key="fp_error_vibrate"
+        android:title="@string/fp_error_vibrate_title"
+        android:summary="@string/fp_error_vibrate_summary"
+        android:defaultValue="true" />
+
     <!-- System Category -->
     <PreferenceCategory
         android:key="category_system"

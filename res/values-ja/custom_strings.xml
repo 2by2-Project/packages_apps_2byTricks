@@ -13,11 +13,17 @@
     <string name="about_summary">2by2 Project について</string>
     <!-- Miscellaneous -->
     <string name="category_appearance_title">見た目を変える</string>
+    <string name="category_lockscreen_title">ロック画面</string>
     <string name="category_system_title">システム関連</string>
     <!-- Miscellaneous - Appearance -->
     <string name="qs_transparency_title">クイック設定の透明度</string>
     <string name="disable_window_blurs_title">クイック設定のぼかし機能を無効化</string>
     <string name="disable_window_blurs_summary">ぼかし機能を無効にするとパフォーマンスが向上する可能性があります。また、一部デバイスでは最適化によりぼかし機能が強制的に無効になることがあります。</string>
+    <!-- Miscellaneous - Lock Screen -->
+    <string name="fp_success_vibrate_title">指紋認証時の振動</string>
+    <string name="fp_success_vibrate_summary">指紋認証が成功した際に振動させます</string>
+    <string name="fp_error_vibrate_title">指紋認証エラー時の振動</string>
+    <string name="fp_error_vibrate_summary">指紋認証が失敗した際に振動させます</string>
     <!-- Miscellaneous - System -->
     <string name="spoofing_pif_toggle_title">ROM 側の Play Integrity の修正</string>
     <string name="spoofing_pif_toggle_summary">端末を偽装して Play Integrity に通過できるようにします。TrickyStore 等のサードパーティ製モジュールを使用するときはオフにしてください。</string>

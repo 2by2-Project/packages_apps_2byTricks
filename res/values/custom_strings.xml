@@ -16,12 +16,19 @@
 
     <!-- Miscellaneous -->
     <string name="category_appearance_title">Appearance</string>
+    <string name="category_lockscreen_title">Lock Screen</string>
     <string name="category_system_title">System</string>
 
     <!-- Miscellaneous - Appearance -->
     <string name="qs_transparency_title">Adjust QS Transparency</string>
     <string name="disable_window_blurs_title">Disable QS blur effects</string>
     <string name="disable_window_blurs_summary">Disable blurs might be boost performance. No blur effects on some devices due to optimization.</string>
+
+    <!-- Miscellaneous - Lock Screen -->
+    <string name="fp_success_vibrate_title">Fingerprint authentication vibration</string>
+    <string name="fp_success_vibrate_summary">Vibrate when fingerprint authentication is successful</string>
+    <string name="fp_error_vibrate_title">Fingerprint error vibration</string>
+    <string name="fp_error_vibrate_summary">Vibrate when fingerprint authentication fails</string>
 
     <!-- Miscellaneous - System -->
     <string name="spoofing_pif_toggle_title">Play Integrity fix</string>
