@@ -5,6 +5,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Circle to search -->
+    <string name="search_press_hold_gesture_title">Hold handle to search</string>
+    <string name="search_press_hold_gesture_summary">Press and hold the navigation handle to invoke search over your screen.</string>
+
     <!-- 2byTricks -->
     <string name="custom_dashboard_title">2byTricks</string>
 

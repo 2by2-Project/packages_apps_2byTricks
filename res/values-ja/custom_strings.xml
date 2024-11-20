@@ -4,6 +4,8 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="search_press_hold_gesture_title">かこって検索</string>
+    <string name="search_press_hold_gesture_summary">画面下部のハンドルを長押しして、検索対象を円で囲むかハイライト表示します</string>
     <!-- 2byTricks -->
     <string name="custom_dashboard_title">2byTricks</string>
     <!-- Categories -->
