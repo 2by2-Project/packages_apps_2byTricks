@@ -15,14 +15,14 @@
         android:title="@string/category_appearance_title" />
 
     <!-- QS Transparency -->
-    <jp.project2by2.settings.preferences.SystemSettingSeekBarPreference
+    <!--<jp.project2by2.settings.preferences.SystemSettingSeekBarPreference
         android:key="qs_transparency"
         android:title="@string/qs_transparency_title"
         android:defaultValue="70"
         settings:interval="1"
         settings:units="%"
         android:max="100"
-        android:min="1"/>
+        android:min="1"/>-->
 
     <!-- QS Blurs -->
     <jp.project2by2.settings.preferences.GlobalSettingSwitchPreference
@@ -32,21 +32,21 @@
         android:defaultValue="false" />
 
     <!-- Lock Screen Category -->
-    <PreferenceCategory
+    <!--<PreferenceCategory
         android:key="category_lockscreen"
-        android:title="@string/category_lockscreen_title" />
+        android:title="@string/category_lockscreen_title" />-->
 
-    <jp.project2by2.settings.preferences.SystemSettingSwitchPreference
+    <!--<jp.project2by2.settings.preferences.SystemSettingSwitchPreference
         android:key="fp_success_vibrate"
         android:title="@string/fp_success_vibrate_title"
         android:summary="@string/fp_success_vibrate_summary"
-        android:defaultValue="true" />
+        android:defaultValue="true" />-->
 
-    <jp.project2by2.settings.preferences.SystemSettingSwitchPreference
+    <!--<jp.project2by2.settings.preferences.SystemSettingSwitchPreference
         android:key="fp_error_vibrate"
         android:title="@string/fp_error_vibrate_title"
         android:summary="@string/fp_error_vibrate_summary"
-        android:defaultValue="true" />
+        android:defaultValue="true" />-->
 
     <!-- System Category -->
     <PreferenceCategory
@@ -80,10 +80,10 @@
         android:defaultValue="false" />
 
     <!-- Ignore window secure flags -->
-    <jp.project2by2.settings.preferences.SecureSettingSwitchPreference
+    <!--<jp.project2by2.settings.preferences.SecureSettingSwitchPreference
             android:key="window_ignore_secure"
             android:title="@string/ignore_window_secure_title"
             android:summary="@string/ignore_window_secure_summary"
-            android:defaultValue="false"/>
+            android:defaultValue="false"/>-->
 
 </PreferenceScreen>
