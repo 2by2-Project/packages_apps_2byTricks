@@ -55,10 +55,17 @@
 
     <!-- Play Integrity Fix -->
     <jp.project2by2.settings.preferences.SystemPropertySwitchPreference
-        android:key="persist.sys.pihooks.pi"
+        android:key="persist.sys.pihooks.disable.gms_props"
         android:title="@string/spoofing_pif_toggle_title"
         android:summary="@string/spoofing_pif_toggle_summary"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
+
+    <!-- Play Integrity Fix - Key Attestation block disable -->
+    <jp.project2by2.settings.preferences.SystemPropertySwitchPreference
+        android:key="persist.sys.pihooks.disable.gms_key_attestation_block"
+        android:title="@string/spoofing_pif_key_attestation_toggle_title"
+        android:summary="@string/spoofing_pif_key_attestation_toggle_summary"
+        android:defaultValue="false" />
 
     <!-- Play Integrity Fix - JSON utils -->
     <Preference
@@ -67,7 +74,7 @@
 
     <!-- Google Photos -->
     <jp.project2by2.settings.preferences.SystemPropertySwitchPreference
-        android:key="persist.sys.pihooks.gphotos"
+        android:key="persist.sys.pihooks.enable.photos_spoof"
         android:title="@string/spoofing_photos_title"
         android:summary="@string/spoofing_photos_summary"
         android:defaultValue="false" />
@@ -78,12 +85,5 @@
         android:title="@string/disable_camera_sounds_title"
         android:summary="@string/disable_camera_sounds_summary"
         android:defaultValue="false" />
-
-    <!-- Ignore window secure flags -->
-    <jp.project2by2.settings.preferences.GlobalSettingSwitchPreference
-            android:key="window_ignore_secure"
-            android:title="@string/ignore_window_secure_title"
-            android:summary="@string/ignore_window_secure_summary"
-            android:defaultValue="false"/>
 
 </PreferenceScreen>
