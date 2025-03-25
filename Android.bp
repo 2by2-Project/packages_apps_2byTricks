@@ -1,12 +1,12 @@
 android_library {
 
-    name: "YASP-preference",
+    name: "custom-preference",
 
     optimize: {
         enabled: false,
     },
 
-    srcs: ["src/com/yasp/settings/preferences/**/*.java"],
+    srcs: ["src/jp/project2by2/settings/preferences/**/*.java"],
 
     static_libs: [
         "androidx.core_core",
