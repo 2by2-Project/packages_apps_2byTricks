@@ -1,6 +1,6 @@
 android_library {
 
-    name: "YASP-preference",
+    name: "2byTricks-preference",
 
     optimize: {
         enabled: false,
