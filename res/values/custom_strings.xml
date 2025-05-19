@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2025 The 2by2 Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Device Info screen -->
+    <string name="edit_device_name_title">Edit Device Name</string>
+
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="discard_changes">Discard changes</string>
+    <string name="never">Never</string>
+    <string name="always">Always</string>
+    <string name="caution">Caution</string>
+    <string name="delete">Delete</string>
+    <string name="delete_message">Remove selected item?</string>
+    <string name="choose_app">Choose app</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="accent_color">Accent color (Default)</string>
+    <string name="notification_color">Notification color</string>
+    <string name="wallpaper_color">Wallpaper color</string>
+    <string name="custom_color">Custom color</string>
+    <string name="reevaluating_theme">Reloading system themes...</string>
+    <string name="wellbeing_title">Google Wellbeing</string>
+    <string name="default_value">Default</string>
+    <string name="top">Top</string>
+    <string name="bottom">Bottom</string>
+    <string name="highlights_title">Discover features</string>
+</resources>
