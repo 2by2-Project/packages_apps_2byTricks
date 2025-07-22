@@ -31,4 +31,10 @@
     <string name="top">Top</string>
     <string name="bottom">Bottom</string>
     <string name="highlights_title">Discover features</string>
+
+    <!-- Emoji Picker -->
+    <string name="themes_emoji_title">Emoji</string>
+    <string name="themes_emoji_summary">Set emoji style</string>
+    <string name="themes_emoji_btn_reset_title">Reset</string>
+    <string name="themes_emoji_select_message">Applied successfully. Reboot required to use new emoji.</string>
 </resources>
